@@ -52,7 +52,9 @@
           app:scrimVisibleHeightTrigger="@dimen/settingslib_scrim_visible_height_trigger"
           app:statusBarScrim="@null"
           app:titleCollapseMode="fade"
-          app:toolbarId="@id/action_bar">
+          app:toolbarId="@id/action_bar"
+          app:expandedTitleGravity="bottom|center_horizontal">
+         
             
             <Toolbar
               android:theme="?android:actionBarTheme"
